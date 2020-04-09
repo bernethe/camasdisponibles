@@ -1,0 +1,37 @@
+{
+	"sjo": {
+		"label": "San José",
+		"total": 198,
+		"free": 20
+	},
+	"ala": {
+		"label": "Alajuela",
+		"total": 137,
+		"free": 24
+	},
+	"car": {
+		"label": "Cartago",
+		"total": 112,
+		"free": 31
+	},
+	"her": {
+		"label": "Heredia",
+		"total": 107,
+		"free": 25
+	},
+	"pun": {
+		"label": "Puntarenas",
+		"total": 103,
+		"free": 14
+	},
+	"gua": {
+		"label": "Guanacaste",
+		"total": 101,
+		"free": 33
+	},
+	"lim": {
+		"label": "Limón",
+		"total": 98,
+		"free": 78
+	}
+}

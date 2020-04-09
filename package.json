@@ -1,0 +1,23 @@
+{
+  "name": "camasdisponibles",
+  "version": "1.0.0",
+  "description": "Sitio web donde podrás ver las camas disponibles en cuidados intensivos en Costa Rica a causa del coronavirus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernethe/camasdisponibles.git"
+  },
+  "author": "Harold Bernethe Soto González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernethe/camasdisponibles/issues"
+  },
+  "homepage": "https://github.com/bernethe/camasdisponibles#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "normalize-scss": "^7.0.1"
+  }
+}
