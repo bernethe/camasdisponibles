@@ -1,3 +1,3 @@
-# La Restricción
+# Camas Disponibles
 
-Sitio web donde podrás ver la restricción vehicular sanitaria emitida por Costa Rica en semana santa a causa del coronavirus.
+Sitio web donde podrás ver las camas disponibles en cuidados intensivos en Costa Rica a causa del coronavirus.
