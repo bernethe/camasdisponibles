@@ -8,6 +8,7 @@ const main = () => {
 		.then( resp => resp.json() )
 		.then( respObj => {
 			_d = respObj.datos;
+			document.getElementById('date_txt').innerHTML = `Última actualización: ${respObj.fecha}`;
 			//console.log(_d, _d.length);
 			let _btn = document.getElementById('botonera');
 			for(let i = 0; i < _d.length; i++) {
