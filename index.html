@@ -14,6 +14,63 @@
 </head>
 
 <body>
-<header></header>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-4 col-md-2 offset-1 offset-md-2"><img src="/img/logo-ms.svg" alt="Ministerio de Salud" class="img-fluid"></div>
+			<div class="col-4 col-md-2 offset-2 offset-md-4"><img src="/img/logo-ccss.svg" alt="Caja Costarricense de Seguro Social" class="img-fluid"></div>
+		</div>
+	</div>
+</header>
+<div class="container" id="page_01">
+	<div class="row">
+		<div class="col-10 col-sm-4 offset-1 offset-sm-4 text-center">
+			<p>Elija la provincia donde vive y sabrá cuántas camas de cuidados intensivos hay disponibles cerca de usted.</p>
+		</div>
+	</div>
+	<div class="row mt-4 mb-4">
+		<div class="col-8 col-md-4 offset-2 offset-md-4">
+			<img src="/img/cama.svg" alt="Camas Disponibles">
+		</div>
+	</div>
+	<div class="row"><div class="col-8 col-md-4 offset-2 offset-md-4"><hr></div></div>
+	<div class="row"><div class="col-sm-12 text-center"><ul id="botonera"></ul></div></div>
+</div>
+<div class="container d-none" id="page_02">
+	<div class="row mt-4 mb-4">
+		<div class="col-12">
+			<table id="tabResult">
+				<thead>
+					<tr>
+						<th>Hospital</th>
+						<th>Camas</th>
+						<th>Libres</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+	</div>
+	<div class="row"><div class="col-8 col-md-4 offset-2 offset-md-4"><hr></div></div>
+	<div class="row mt-3">
+		<div class="col-4 col-md-2 offset-4 offset-md-5">
+			<img src="/img/ico-home.svg" alt="">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12 text-center">
+			<p>La mejor prevención es:<br>
+			<strong>#QuedarseEnCasa</strong></p>
+			<p><a href="">« Regresar</a></p>
+		</div>
+	</div>
+</div>
+<footer class="container mt-5 mb-2">
+	<div class="row align-items-center">
+		<div class="col-4 col-md-2 offset-0 offset-md-1"><a href=""><img src="/img/logo-ri.svg" alt="" class="img-fluid"></a></div>
+		<div class="col-4 col-md-2 offset-0 offset-md-2"><a href=""><img src="/img/logo-dw.svg" alt="" class="img-fluid"></a></div>
+		<div class="col-4 col-md-2 offset-0 offset-md-2"><a href=""><img src="/img/logo-imacorp.png" alt="Imacorp" class="img-fluid"></a></div>
+	</div>
+</footer>
 </body>
 </html>
