@@ -45,6 +45,14 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	& a {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 hr {
 	border: none;
@@ -116,4 +124,10 @@ table {
 		}
 	}
 
+}
+#dispon_txt {
+	& strong {
+		font-size: 2em;
+		margin-left: .25em;
+	}
 }

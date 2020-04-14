@@ -8,6 +8,7 @@ const main = () => {
 		.then( resp => resp.json() )
 		.then( respObj => {
 			_d = respObj.datos;
+			document.getElementById('dispon_txt').innerHTML = `Quedan disponibles sólo el <strong>${respObj.disponible}%</strong> de camas de cuidados intensivos disponibles en el país. Si aumentan los casos, disminuye la capacidad de atención.`;
 			document.getElementById('date_txt').innerHTML = `Última actualización: ${respObj.fecha}`;
 			//console.log(_d, _d.length);
 			let _btn = document.getElementById('botonera');
@@ -30,8 +31,7 @@ const doProv = (ele) => {
 		_t.appendChild(
 			createCustomElement('tr', {},[
 				createCustomElement('td', {},[_cc[i].label]),
-				createCustomElement('td', {},[_cc[i].total]),
-				createCustomElement('td', {},[_cc[i].free]),
+				createCustomElement('td', {},[_cc[i].total])
 			])
 		);
 	}
